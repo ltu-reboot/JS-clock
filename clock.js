@@ -1,7 +1,3 @@
-
-
-
-
 function currentTime() {
 
   let date = new Date();
@@ -9,7 +5,7 @@ function currentTime() {
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
 
-  console.log( hour, minutes, seconds );
+  // console.log( hour, minutes, seconds );
 
 
   hour = updateTime( hour );
